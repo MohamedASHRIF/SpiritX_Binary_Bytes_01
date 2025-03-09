@@ -1,0 +1,18 @@
+Connect in mongodbcompass
+create .env in backend
+add 
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/dataBase
+JWT_SECRET=123456789asdfghjkl
+in .env
+
+
+cd backend
+npm install
+npm run dev
+The server will run on http://localhost:5000
+
+cd frontend
+npm install
+npm start
+The frontend will be available at http://localhost:3003
